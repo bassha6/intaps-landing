@@ -6,7 +6,7 @@ const Logos = () => {
   const images = ["/7.svg", "/2.svg", "/3.svg", "/4.svg", "/5.svg", "/6.svg"];
 
   return (
-    <div className="p-8 max-w-7xl mx-auto space-y-10">
+    <div className="p-8 max-w-7xl mx-auto ">
          <div className="flex items-center flex-col md:flex-row">
         <h2 className="text-3xl flex-1  font-bold tracking-wide text-gray-800">
           Investors & Partners
@@ -17,7 +17,7 @@ const Logos = () => {
           at dignissimos magnam ipsam consequatur cum.
         </p>
       </div>
-     <div className="flex items-center gap-4 flex-wrap mt-10 justify-center ">
+     <div className="flex items-center mt-24 gap-4 flex-wrap  justify-center ">
         {images.map((img) => (
           <span className="border p-4 rounded-xl ">
             <Image
@@ -30,7 +30,7 @@ const Logos = () => {
           </span>
         ))}
       </div>
-      <div className="bg-lime-50 p-8 rounded-xl flex flex-col gap-6">
+      <div className="bg-lime-50 mt-24 p-8 rounded-xl flex flex-col gap-6">
         <div className="mx-auto text-center max-w-lg flex  flex-col gap-2">
           <h1 className="text-4xl font-bold tracking-wider">
             Our main benefits

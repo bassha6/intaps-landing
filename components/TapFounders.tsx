@@ -6,7 +6,7 @@ function TapFounders() {
         <img
           src="https://i.pinimg.com/control/564x/1e/e0/2c/1ee02cf80ddecd0985bb22a711f73332.jpg" // Replace with actual image source
           alt="Our Founders"
-          className="rounded-lg object-cover shadow-lg w-full sm:object-cover h-72"
+          className="rounded-lg object-cover shadow-lg w-full sm:object-cover h-72 lg:h-96"
         />
       </div>
 
