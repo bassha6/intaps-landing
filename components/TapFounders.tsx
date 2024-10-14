@@ -1,6 +1,6 @@
 function TapFounders() {
   return (
-    <section className="flex flex-col md:flex-row items-start justify-between p-10 bg-white">
+    <section className="flex mt-24 flex-col md:flex-row items-start justify-between p-10 bg-white">
       {/* Left Side */}
       <div className="w-full h-auto md:w-1/2 mb-6 md:mb-0 ">
         <img

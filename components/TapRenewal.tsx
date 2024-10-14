@@ -1,6 +1,6 @@
 export default function TapRenewal ()  {
   return (
-    <section className=" p-10 m-4 flex justify-center items-center bg-gradient-to-r from-teal-800 to-green-900 rounded-lg">
+    <section className=" p-10  m-4 flex justify-center items-center bg-gradient-to-r from-teal-800 to-green-900 rounded-lg">
       <div className="text-center px-4">
         {/* Heading */}
         <h1 className="text-5xl font-bold text-white">

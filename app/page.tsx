@@ -18,10 +18,12 @@ const Home = () => {
       <Hero />
       <Logos />
       <Services />
-      <div className="max-w-7xl mx-auto">
-        <TapRenewal />
-        <TapFounders />
-        <TapSupport />
+      <div className="">
+        <div className="w-full flex flex-col gap-12">
+          <TapRenewal />
+          <TapFounders />
+          <TapSupport />
+        </div>
       </div>
     </div>
   );
