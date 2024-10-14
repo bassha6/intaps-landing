@@ -5,9 +5,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
+    <div className='p-4'>
       <nav>
-        <Image src={'/public/logo.svg'} width={125} height={125} alt='Logo goes here'/>
+        <Image src={'/logo.svg'} width={125} height={125} alt='Logo goes here'/>
       </nav>
     </div>
   )
