@@ -1,16 +1,30 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import React from 'react'
+import Hero from "@/components/Hero";
+import Logos from "@/components/Logos";
+import NavBar from "@/components/NavBar";
+import Services from "@/components/Services";
+import TapFooter from "@/components/TapFooter";
+import TapFounders from "@/components/TapFounders";
+import TapRenewal from "@/components/TapRenewal";
+import TapSupport from "@/components/TapSupport";
+import { ArrowRight, Leaf, PhoneCall } from "lucide-react";
+import Image from "next/image";
+import React from "react";
 
 const Home = () => {
   return (
-    <div className='p-4'>
-      <nav>
-        <Image src={'/logo.svg'} width={125} height={125} alt='Logo goes here'/>
-      </nav>
+    <div className="flex  flex-col gap-8">
+      <Hero />
+      <Logos />
+      <Services />
+      <div className="max-w-7xl mx-auto">
+        <TapRenewal />
+        <TapFounders />
+        <TapSupport />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
