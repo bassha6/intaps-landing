@@ -11,7 +11,7 @@ const Card = ({ icon: Icon, title, content, color, rotation }) => (
     <h3 className="text-xl font-semibold">{title}</h3>
     <p className="text-white/80">{content}</p>
   </div>
-)
+);
 
 const StackedCards = ({ cards }) => (
   <div className="relative w-52 h-44">
@@ -19,7 +19,7 @@ const StackedCards = ({ cards }) => (
       <Card key={index} {...card} rotation={index % 2 === 0 ? -3 : 3} />
     ))}
   </div>
-)
+);
 
 const Hero = () => {
   const cards = [
@@ -32,7 +32,7 @@ const Hero = () => {
     {
       icon: PhoneCall,
       title: "Phone",
-      content: "+251 911 123 456\n+251 911 789 012",
+      content: "+251 911 123 456\n +251 911 789 012",
       color: "bg-yellow-500",
     },
     {
@@ -49,18 +49,20 @@ const Hero = () => {
     },
   ];
 
+ 
   return (
     <div className="p-8 bg-[#0E3E41] relative min-h-screen">
-     <div className="flex flex-wrap gap-2 mx-auto items-center justify-center">
+      {/* <div className="flex flex-wrap gap-2 mx-auto items-center justify-center">
         {[0, 1, 2, 3].map((index) => (
           <div key={index} className={`lg:absolute ${getPosition(index)}`}>
-            <StackedCards cards={[cards[index], cards[(index) % 4]]} />
+            <StackedCards cards={[cards[index], cards[index % 4]]} />
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div id="home" className="p-8 max-w-7xl mx-auto h-full">
         <div className="flex flex-col gap-4 items-center justify-center flex-1 mt-24">
+          
           <h1 className="text-6xl font-bold flex flex-col text-white text-center">
             We are building a
             <span className="text-transparent bg-gradient-to-tl bg-clip-text from-[#4AEF8A] to-[#A7DA89] font-bold">
@@ -95,16 +97,14 @@ const Hero = () => {
   );
 };
 
-
 const getPosition = (index) => {
   const positions = [
     "top-[8rem] left-[8rem]",
     "bottom-[8rem] left-[8rem]",
     "top-[8rem] right-[8rem]",
     "bottom-[8rem] right-[8rem]",
-  ]
-  return positions[index]
-}
+  ];
+  return positions[index];
+};
 
 export default Hero;
-

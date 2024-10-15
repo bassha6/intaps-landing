@@ -24,6 +24,7 @@ function TapFounders() {
             alt="Abel Yosef"
             className="w-16 h-16 rounded-xl mr-4 object-cover"
           />
+          
           <div>
             <h3 className="text-xl font-semibold text-black">Abel Yosef</h3>
             <p className="text-green-600">Engineer</p>

@@ -3,6 +3,13 @@ import Image from "next/image";
 import React from "react";
 
 const NavBar = () => {
+  const address = {
+    icon: Map,
+    title: "Our Address",
+    content: "Wossen, CMC\nAddis Ababa, Ethiopia",
+    color: "bg-lime-500",
+  };
+
   return (
     <div className=" p-4 bg-[#0E3E41]">
       <div className="max-w-7xl mx-auto">
@@ -38,15 +45,15 @@ const NavBar = () => {
                 </a> */}
             </ul>
           </div>
-          <div className="flex items-center">
-            
-
-            <a
+          <div className="flex items-center gap-2 text-white">
+              <span className="">{address.content}</span>
+              <p className="hover:underline cursor-pointer">+25111123456</p>
+            {/* <a
               href="/contact-us"
               className="bg-[#44dd82] text-sm font-bold tracking-wide hover:bg-opacity-85 rounded-full p-2 text-white px-4 cursor-pointer "
             >
               Contact us
-            </a>
+            </a> */}
           </div>
         </nav>
       </div>
