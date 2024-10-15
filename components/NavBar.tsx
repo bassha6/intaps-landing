@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className=" p-4 bg-[#0E3E41]">
+    <div className=" p-4">
       <div className="max-w-7xl mx-auto">
         <nav className="flex items-center flex-wrap justify-between gap-2">
           <Image
@@ -24,19 +24,19 @@ const NavBar = () => {
             <ul className="flex items-center gap-4 ">
               <a
                 href="/"
-                className="text-white font-bold tracking-wider cursor-pointer hover:text-opacity-85"
+                className="text-gray-800 font-bold tracking-wider cursor-pointer hover:text-opacity-85"
               >
                 Home
               </a>
               <a
                 href="/#services"
-                className="text-white font-bold tracking-wider cursor-pointer hover:text-opacity-85"
+                className="text-gray-800 font-bold tracking-wider cursor-pointer hover:text-opacity-85"
               >
                 Services
               </a>
               <a
                 href="/works"
-                className="text-white font-bold tracking-wider cursor-pointer hover:text-opacity-85"
+                className="text-gray-800 font-bold tracking-wider cursor-pointer hover:text-opacity-85"
               >
                 Works
               </a>
@@ -45,7 +45,7 @@ const NavBar = () => {
                 </a> */}
             </ul>
           </div>
-          <div className="flex items-center gap-2 text-white">
+          <div className="flex items-center gap-2 text-gray-900">
               <span className="">{address.content}</span>
               <p className="hover:underline cursor-pointer">+25111123456</p>
             {/* <a

@@ -51,7 +51,7 @@ const Hero = () => {
 
  
   return (
-    <div className="p-8 bg-[#0E3E41] relative min-h-screen">
+    <div className="p-8  relative min-h-screen">
       {/* <div className="flex flex-wrap gap-2 mx-auto items-center justify-center">
         {[0, 1, 2, 3].map((index) => (
           <div key={index} className={`lg:absolute ${getPosition(index)}`}>
@@ -63,7 +63,7 @@ const Hero = () => {
       <div id="home" className="p-8 max-w-7xl mx-auto h-full">
         <div className="flex flex-col gap-4 items-center justify-center flex-1 mt-24">
           
-          <h1 className="text-6xl font-bold flex flex-col text-white text-center">
+          <h1 className="text-6xl font-bold flex flex-col text-gray-900 text-center">
             We are building a
             <span className="text-transparent bg-gradient-to-tl bg-clip-text from-[#4AEF8A] to-[#A7DA89] font-bold">
               Sustainable Future
