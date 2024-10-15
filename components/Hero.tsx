@@ -69,7 +69,7 @@ const Hero = () => {
               Sustainable Future
             </span>
           </h1>
-          <p className="text-white/80 text-center">
+          <p className="text-gray-600 text-center">
             Committed to innovative practices and eco-friendly solutions
           </p>
           <button className="bg-[#44dd82] flex items-center gap-2 mx-auto mt-4 text-sm font-bold tracking-wide hover:bg-opacity-85 rounded-full p-4 text-white px-4 cursor-pointer">
