@@ -76,19 +76,19 @@ const Hero = () => {
             Call us for free consultation <PhoneCall className="w-4 h-4" />
           </button>
           <div className="flex flex-col gap-2 mt-4">
-            <div className="flex gap-2 flex-wrap mx-auto items-center justify-center">
+            <div className="flex gap-2 flex-wrap mx-auto items-center justify-center rounded-xl overflow-hidden">
               <Image
-                src={"https://fakeimg.pl/400x600"}
-                width={300}
-                height={150}
+                src={"https://fakeimg.pl/800x400"}
+                width={1000}
+                height={200}
                 alt="Logo goes here"
               />
-              <Image
+              {/* <Image
                 src={"https://fakeimg.pl/400x600"}
-                width={300}
+                width={500}
                 height={150}
                 alt="Logo goes here"
-              />
+              /> */}
             </div>
           </div>
         </div>
