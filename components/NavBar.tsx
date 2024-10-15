@@ -20,7 +20,7 @@ const NavBar = () => {
             height={125}
             alt="Logo goes here"
           />
-          <div>
+          <div className=" md:ml-44 flex items-center justify-center">
             <ul className="flex items-center gap-4 ">
               <a
                 href="/"
