@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto">
         <nav className="flex items-center flex-wrap justify-between gap-2">
           <Image
-            src={"/logo2.svg"}
+            src={"/logo.svg"}
             width={125}
             height={125}
             alt="Logo goes here"

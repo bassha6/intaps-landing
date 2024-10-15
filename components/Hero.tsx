@@ -51,7 +51,7 @@ const Hero = () => {
 
  
   return (
-    <div className="p-8  relative min-h-screen">
+    <div className="p-8  relative min-h-screen bg-gray-100">
       {/* <div className="flex flex-wrap gap-2 mx-auto items-center justify-center">
         {[0, 1, 2, 3].map((index) => (
           <div key={index} className={`lg:absolute ${getPosition(index)}`}>
