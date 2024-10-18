@@ -5,40 +5,60 @@ import React from 'react'
 const Services = () => {
   return (
     <div id='services' className="p-8 max-w-7xl mx-auto">
-    <div className="flex items-center gap-4 flex-col md:flex-row">
+    <div className="flex items-center gap-4 flex-col md:flex-row justify-between">
       <h2 className="text-3xl w-52  font-bold tracking-wide text-gray-800">
-        Providing best services
+      Our Services
+
       </h2>
       <p className="flex-1 text-gray-600">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dolorem
-        distinctio consectetur sequi. Sed quae eaque officia possimus
-        quisquam at dignissimos magnam ipsam consequatur cum.
+        This are the main core Services that are provided by INTAPS
       </p>
     </div>
     <div className="flex flex-col gap-4 ">
-      {[1, 2, 3].map(() => (
-        <div className="border-b my-4 flex-col md:flex-row mt-6 border-gray-200 p-4 gap-4 flex items-center  justify-between">
-          <span className="rounded-2xl overflow-hidden">
+    <div className="border-b my-4 flex-col md:flex-row mt-6 border-gray-200 py-4 px-1 gap-4 flex items-center  justify-between border">
+          {/* <span className="rounded-2xl overflow-hidden">
             <Image
               src={"https://fakeimg.pl/200x100"}
               width={200}
               height={100}
               alt="Logo goes here"
             />
-          </span>
+          </span> */}
 
           <h1 className="text-xl font-bold ml-4 tracking-wider">
-            Renewable Energy Solutions
+          Custom Software Development
           </h1>
           <p className="text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ea
-            rem quia a iste laudantium?
+          We design and implement tailored software solutions to meet the specific needs of organizations.
+
           </p>
           <span className="border p-2 rounded-full">
             <ArrowRight className="" />
           </span>
         </div>
-      ))}
+    </div>
+    <div className="flex flex-col gap-4 ">
+    <div className="border-b my-4 flex-col md:flex-row mt-6 border-gray-200 py-4 px-1 gap-4 flex items-center  justify-between border">
+          {/* <span className="rounded-2xl overflow-hidden">
+            <Image
+              src={"https://fakeimg.pl/200x100"}
+              width={200}
+              height={100}
+              alt="Logo goes here"
+            />
+          </span> */}
+
+          <h1 className="text-xl font-bold ml-4 tracking-wider">
+          Flagship Products
+          </h1>
+          <p className="text-gray-600">
+          We develop and deploy Enterprise Resource Planning (ERP) systems <br /> and other flagship solutions to drive digital transformation
+
+          </p>
+          <span className="border p-2 rounded-full">
+            <ArrowRight className="" />
+          </span>
+        </div>
     </div>
   </div>
   )

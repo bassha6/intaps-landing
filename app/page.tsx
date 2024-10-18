@@ -21,7 +21,7 @@ const Home = () => {
       <div className="">
         <div className="w-full flex flex-col gap-12">
           <TapRenewal />
-          <TapFounders />
+          {/* <TapFounders /> */}
           <TapSupport />
         </div>
       </div>

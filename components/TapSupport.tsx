@@ -5,29 +5,24 @@ function TapSupport () {
 
   const faqs = [
     {
-      question: "Question One",
+      question: "About INTAPS?",
       answer:
-        "Answer bla bla bla one.",
+        "At INTAPS Consultancy PLC, we leverage advanced technology to help public and private sector organizations transform their operations. With over 17 years of experience, we are at the forefront of digital transformation in Ethiopia, driving innovation and simplifying complex processes. INTAPS is a market leader in providing software solutions that boost efficiency and offer strategic advantages.",
     },
     {
-        question: "Question Two",
+        question: "Where Is It Located?",
         answer:
-          "Answer bla bla bla Two.",
+          "INTAPS Consultancy PLC is Located in AddisAbaba,Ethiopia around Wosen next to Aselefech Merga Hotel. ",
     },
     {
-        question: "Question Three",
+        question: "What are the Contact Information?",
         answer:
-          "Answer bla bla bla Three.",
+          "INTAPS Consultancy PLC is available at this phone lines: +251-91320 0500 or +251-116604088",
     },
     {
-        question: "Question Four",
+        question: "How Long Have You Been On The Market?",
         answer:
-          "Answer bla bla bla Four.",
-    },
-    {
-        question: "Question Five",
-        answer:
-          "Answer bla bla bla Five.",
+          "INTAPS Consultancy PLC is working on software development for over 17 years!",
     },
   ];
 
@@ -41,7 +36,7 @@ function TapSupport () {
       <div className="md:w-1/2">
         <h1 className="text-4xl font-bold text-black mb-4">We Have 24/7 Support Available</h1>
         <p className="text-gray-500 mb-8">In case you are still looking for answers.</p>
-        <button className="px-6 py-3 bg-green-400 text-white text-lg font-semibold rounded-full hover:bg-green-500 transition duration-300">
+        <button className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-transparent hover:border hover:text-blue-700 hover:shadow-sm transition duration-300">
           Contact Support →
         </button>
       </div>
@@ -52,7 +47,7 @@ function TapSupport () {
           <div
             key={index}
             className={`border ${
-              openIndex === index ? 'border-green-300 bg-green-50' : 'border-gray-300 bg-white'
+              openIndex === index ? 'border-blue-300 bg-blue-50' : 'border-blue-300 bg-white'
             } rounded-lg mb-4 shadow-sm`}
           >
             <button

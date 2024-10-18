@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto">
         <nav className="flex items-center flex-wrap justify-between gap-2">
           <Image
-            src={"/logo.svg"}
+            src={"/Intaps_logo.png"}
             width={125}
             height={125}
             alt="Logo goes here"
@@ -45,9 +45,9 @@ const NavBar = () => {
                 </a> */}
             </ul>
           </div>
-          <div className="flex items-center gap-2 text-gray-900">
+          <div className="items-center gap-2 text-gray-900">
               <span className="">{address.content}</span>
-              <p className="hover:underline cursor-pointer">+25111123456</p>
+              <div className="flex font-bold"><p className="hover:underline cursor-pointer">+251-913200500 || </p> <p className="hover:underline cursor-pointer"> +251-116604088</p></div>
             {/* <a
               href="/contact-us"
               className="bg-[#44dd82] text-sm font-bold tracking-wide hover:bg-opacity-85 rounded-full p-2 text-white px-4 cursor-pointer "

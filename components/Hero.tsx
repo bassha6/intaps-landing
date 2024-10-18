@@ -61,24 +61,25 @@ const Hero = () => {
       </div> */}
 
       <div id="home" className="p-8 max-w-7xl mx-auto h-full">
-        <div className="flex flex-col gap-4 items-center justify-center flex-1 mt-24">
+        <div className="flex flex-col gap-4 items-center justify-center flex-1 mt-24 ">
           
-          <h1 className="text-6xl font-bold flex flex-col text-gray-900 text-center">
-            We are building a
-            <span className="text-transparent bg-gradient-to-tl bg-clip-text from-[#4AEF8A] to-[#A7DA89] font-bold">
-              Sustainable Future 123
+          <h1 className="text-5xl  font-bold flex flex-col text-red-600 text-center">
+          INTAPS Consultancy PLC
+            <span className="text-blue-700">
+            Leading Digital Transformation in Ethiopia
+
             </span>
           </h1>
           <p className="text-gray-600 text-center">
-            Committed to innovative practices and eco-friendly solutions
+          Empowering Public and Private Sectors with Technology-Driven Solutions
           </p>
-          <button className="bg-[#44dd82] flex items-center gap-2 mx-auto mt-4 text-sm font-bold tracking-wide hover:bg-opacity-85 rounded-full p-4 text-white px-4 cursor-pointer">
+          <button className="bg-blue-600 flex items-center gap-2 mx-auto mt-4 text-sm font-bold tracking-wide hover:bg-opacity-85 rounded-full p-4 text-white px-4 cursor-pointer">
             Call us for free consultation <PhoneCall className="w-4 h-4" />
           </button>
           <div className="flex flex-col gap-2 mt-4">
             <div className="flex gap-2 flex-wrap mx-auto items-center justify-center rounded-xl overflow-hidden">
               <Image
-                src={"https://fakeimg.pl/800x400"}
+                src={"/Intaps_logo.png"}
                 width={1000}
                 height={200}
                 alt="Logo goes here"
