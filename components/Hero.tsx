@@ -66,7 +66,7 @@ const Hero = () => {
           <h1 className="text-6xl font-bold flex flex-col text-gray-900 text-center">
             We are building a
             <span className="text-transparent bg-gradient-to-tl bg-clip-text from-[#4AEF8A] to-[#A7DA89] font-bold">
-              Sustainable Future
+              Sustainable Future 123
             </span>
           </h1>
           <p className="text-gray-600 text-center">
