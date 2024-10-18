@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 const Logos = () => {
-  const images = ["/giz.jpeg", "/land.jpg", "/r.png", "/di.jpeg", "/mm.png"];
+  const images = ["/giz.jpeg", "/land.jpg", "/R.png", "/di.jpeg", "/mm.png"];
 
   return (
     <div className="p-8 max-w-7xl mx-auto ">
